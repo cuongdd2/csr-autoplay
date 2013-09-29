@@ -1,6 +1,6 @@
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice
 
-def r0(device)
+def r0(device):
 	print 'depa'
 	device.touch(1150, 450, MonkeyDevice.DOWN)
 	MonkeyRunner.sleep(3)
@@ -24,7 +24,7 @@ def r0(device)
 	MonkeyRunner.sleep(1.5)
 	print 'gear 6'
 	device.touch(950, 600, MonkeyDevice.DOWN_AND_UP)
-	MonkeyRunner.sleep(6)	
+	MonkeyRunner.sleep(6)
 
 def r1(device):
 	print 'depa'
@@ -44,7 +44,7 @@ def r1(device):
 	MonkeyRunner.sleep(0.4)
 	print 'gear 4'
 	device.touch(950, 600, MonkeyDevice.DOWN_AND_UP)
-	MonkeyRunner.sleep(0.85)
+	MonkeyRunner.sleep(0.82)
 	print 'gear 5'
 	device.touch(950, 600, MonkeyDevice.DOWN_AND_UP)
 	MonkeyRunner.sleep(1.25)
@@ -52,7 +52,7 @@ def r1(device):
 	device.touch(950, 600, MonkeyDevice.DOWN_AND_UP)
 	MonkeyRunner.sleep(6)
 	
-def r13(device)
+def r13(device):
 	print 'depa'
 	device.touch(1150, 450, MonkeyDevice.DOWN)
 	MonkeyRunner.sleep(3)

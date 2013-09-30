@@ -14,10 +14,10 @@ for n in range(1000):
 	MonkeyRunner.sleep(1.5)
 	print 'go race'
 	device.touch(1200, 690, MonkeyDevice.DOWN_AND_UP)
-	MonkeyRunner.sleep(6.5)
+	MonkeyRunner.sleep(7)
 	print 'skip'
 	device.touch(1200, 690, MonkeyDevice.DOWN_AND_UP)
-	MonkeyRunner.sleep(0.5)
+	MonkeyRunner.sleep(1)
 	print 'skip'
 	device.touch(1200, 690, MonkeyDevice.DOWN_AND_UP)
 	MonkeyRunner.sleep(0.5)
@@ -28,11 +28,12 @@ for n in range(1000):
 	MonkeyRunner.sleep(0.5)
 	print 'next'
 	device.touch(1200, 690, MonkeyDevice.DOWN_AND_UP)
-	print 'skip ad'
-	device.touch(425, 770, MonkeyDevice.DOWN_AND_UP)
-	MonkeyRunner.sleep(0.5)
+	MonkeyRunner.sleep(3)
 	print 'level up'
 	device.touch(700, 525, MonkeyDevice.DOWN_AND_UP)
+	MonkeyRunner.sleep(0.5)
+	print 'skip ad'
+	device.touch(425, 770, MonkeyDevice.DOWN_AND_UP)
 	MonkeyRunner.sleep(3)
 	print 'next'
 	device.touch(1200, 690, MonkeyDevice.DOWN_AND_UP)
